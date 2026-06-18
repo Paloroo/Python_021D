@@ -1,3 +1,5 @@
+
+
 peliculas = ["Inception", "Marix", "Interstellar"]
 
 peliculas.append("Avatar")
@@ -10,3 +12,4 @@ pelicula = {
     "categoria": "Ciencia Ficcion"
 }
 nombre = pelicula["nombre"]
+año = pelicula.get("año", 0) 
